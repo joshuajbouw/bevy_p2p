@@ -1,0 +1,17 @@
+[package]
+name = "bevy_p2p"
+version = "0.0.0"
+authors = ["Joshua J. Bouw <dev@joshuajbouw.com>"]
+edition = "2018"
+description = "Peer-to-peer network library for Bevy game engine"
+repository = "https://github.com/joshuajbouw/bevy_p2p/"
+license = "UNLICENSE"
+keywords = ["game", "engine", "bevy", "network", "p2p"]
+categories = ["game-engines", "network-programming"]
+readme = "README.md"
+documentation = "https://docs.rs/bevy_p2p/latest/bevy_p2p/"
+exclude = ["assets/**/*", ".github/**/*", "doc/**/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
