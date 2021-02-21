@@ -1,5 +1,6 @@
 pub fn it_works() -> bool {
     true
+mod discovery;
 
 #[derive(Clone)]
 pub struct NetworkStatus {
